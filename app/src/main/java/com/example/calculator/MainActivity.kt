@@ -57,5 +57,7 @@ class MainActivity : AppCompatActivity() {
                 buClickValue="-"+buClickValue
             }
         }
+
+        et_showNumber.setText(buClickValue)
     }
 }
