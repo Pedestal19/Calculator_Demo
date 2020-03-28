@@ -39,11 +39,12 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/buPlusMinus"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
+                android:onClick="buNumberEvent"
                 android:text="+/-"
                 android:textSize="18sp" />
 
