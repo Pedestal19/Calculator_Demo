@@ -14,45 +14,47 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun buNumberEvent(view: View) {
+//        var entryData =
         val buSelect = view as Button
-        var buClickValue:String = "0"
+        var buClickValue:String = et_showNumber.text.toString()
 
         when(buSelect.id){
             bu0.id->{
-                buClickValue="0"
+                buClickValue+="0"
             }
             bu1.id->{
-                buClickValue="1"
+                buClickValue+="1"
             }
             bu2.id->{
-                buClickValue="2"
+                buClickValue+="2"
             }
             bu3.id->{
-                buClickValue="3"
+                buClickValue+="3"
             }
             bu4.id->{
-                buClickValue="4"
+                buClickValue+="4"
             }
             bu5.id->{
-                buClickValue="5"
+                buClickValue+="5"
             }
             bu6.id->{
-                buClickValue="6"
+                buClickValue+="6"
             }
             bu7.id->{
-                buClickValue="7"
+                buClickValue+="7"
             }
             bu8.id->{
-                buClickValue="8"
+                buClickValue+="8"
             }
             bu9.id->{
-                buClickValue="9"
+                buClickValue+="9"
             }
             buDot.id->{
-                buClickValue="."
+                //TODO Prevent adding more than one dot
+                buClickValue+="."
             }
             buPlusMinus.id->{
-                buClickValue="+"
+                buClickValue="-"+buClickValue
             }
         }
     }
