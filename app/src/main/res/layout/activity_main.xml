@@ -199,12 +199,12 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="30pt"
+            android:layout_width="60pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:background="@color/whiteback"
             android:text="0"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button2"
