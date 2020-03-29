@@ -28,12 +28,14 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="AC"
@@ -43,6 +45,7 @@
                 android:id="@+id/buPlusMinus"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -53,6 +56,7 @@
                 android:id="@+id/button5"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="%"
@@ -72,12 +76,14 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
 
             <Button
                 android:id="@+id/bu7"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -88,6 +94,7 @@
                 android:id="@+id/bu8"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -98,6 +105,7 @@
                 android:id="@+id/bu9"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -118,12 +126,14 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
 
             <Button
                 android:id="@+id/bu4"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -134,6 +144,7 @@
                 android:id="@+id/bu5"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -144,6 +155,7 @@
                 android:id="@+id/bu6"
                 android:layout_width="74dp"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -164,12 +176,14 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
 
             <Button
                 android:id="@+id/bu1"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -180,6 +194,7 @@
                 android:id="@+id/bu2"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -190,6 +205,7 @@
                 android:id="@+id/bu3"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
@@ -219,6 +235,7 @@
             android:id="@+id/bu0"
             android:layout_width="60pt"
             android:layout_height="30pt"
+            android:layout_marginRight="1pt"
             android:layout_weight="1"
             android:background="@color/whiteback"
             android:onClick="buNumberEvent"
@@ -229,6 +246,7 @@
             android:id="@+id/buDot"
             android:layout_width="30pt"
             android:layout_height="30pt"
+            android:layout_marginRight="1pt"
             android:layout_weight="1"
             android:background="@color/whiteback"
             android:onClick="buNumberEvent"
