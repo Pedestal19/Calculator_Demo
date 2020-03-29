@@ -59,11 +59,12 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/buDiv"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/buOperations"
+                android:onClick="buOpEvent"
                 android:text="/"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
@@ -104,11 +105,12 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/buMult"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/buOperations"
+                android:onClick="buOpEvent"
                 android:text="X"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
@@ -149,11 +151,12 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/buSub"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/buOperations"
+                android:onClick="buOpEvent"
                 android:text="-"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
@@ -194,11 +197,12 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/buAdd"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/buOperations"
+                android:onClick="buOpEvent"
                 android:text="+"
                 android:textColor="@color/white"
                 android:textSize="18sp" />

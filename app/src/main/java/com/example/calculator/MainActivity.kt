@@ -60,4 +60,15 @@ class MainActivity : AppCompatActivity() {
 
         et_showNumber.setText(buClickValue)
     }
+
+    fun buOpEvent(view: View) {
+
+        var buClickValue:String=et_showNumber.text.toString()
+        when(buSelect.id){
+            buMult.id->{
+
+            }
+
+        }
+    }
 }
