@@ -92,5 +92,26 @@ class MainActivity : AppCompatActivity() {
         isNewOperation=true;
     }
 
-    fun buEqualEvent(view: View) {}
+    fun buEqualEvent(view: View) {
+        val newNumber = et_showNumber.text.toString()
+        var finalNumber:Double?=null
+
+        when(op){
+            "*"->{
+                finalNumber=oldNumber.toDouble()*newNumber.toDouble()
+            }
+            "+"->{
+                finalNumber=oldNumber.toDouble()+newNumber.toDouble()
+            }
+            "-"->{
+                finalNumber=oldNumber.toDouble()-newNumber.toDouble()
+            }
+            "/"->{
+                finalNumber=oldNumber.toDouble()/newNumber.toDouble()
+            }
+        }
+
+        et_showNumber.setText(finalNumber.toString())
+        isNewOperation=true
+    }
 }
