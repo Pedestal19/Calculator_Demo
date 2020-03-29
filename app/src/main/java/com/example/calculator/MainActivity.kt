@@ -15,6 +15,11 @@ class MainActivity : AppCompatActivity() {
 
     fun buNumberEvent(view: View) {
 //        var entryData =
+        if(isNewOperation){
+            et_showNumber.setText("")
+        }
+        isNewOperation=false
+
         val buSelect = view as Button
         var buClickValue:String = et_showNumber.text.toString()
 
@@ -61,14 +66,29 @@ class MainActivity : AppCompatActivity() {
         et_showNumber.setText(buClickValue)
     }
 
+    var op="*"
+    var oldNumber=""
+    var isNewOperation = true
+
     fun buOpEvent(view: View) {
 
-        var buClickValue:String=et_showNumber.text.toString()
+        val buSelect = view as Button
         when(buSelect.id){
             buMult.id->{
-
+                op = "*"
+            }
+            buAdd.id->{
+                op = "+"
+            }
+            buSub.id->{
+                op = "-"
+            }
+            buDiv.id->{
+                op = "/"
             }
 
         }
+        oldNumber = et_showNumber.text.toString()
+        isNewOperation=true;
     }
 }
