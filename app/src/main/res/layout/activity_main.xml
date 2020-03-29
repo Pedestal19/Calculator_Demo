@@ -236,11 +236,12 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buEqual"
             android:layout_width="30pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:background="@color/buOperations"
+            android:onClick="buEqualEvent"
             android:text="="
             android:textColor="@color/white"
             android:textSize="18sp" />

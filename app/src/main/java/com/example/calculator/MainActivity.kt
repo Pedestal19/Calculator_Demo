@@ -91,4 +91,6 @@ class MainActivity : AppCompatActivity() {
         oldNumber = et_showNumber.text.toString()
         isNewOperation=true;
     }
+
+    fun buEqualEvent(view: View) {}
 }
