@@ -40,7 +40,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buCleanEvent"
                 android:text="AC"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/buPlusMinus"
@@ -51,7 +51,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="+/-"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/buPercent"
@@ -62,7 +62,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buPercent"
                 android:text="%"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/buDiv"
@@ -73,7 +73,7 @@
                 android:onClick="buOpEvent"
                 android:text="/"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
         </TableRow>
 
         <TableRow
@@ -90,7 +90,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="7"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/bu8"
@@ -101,7 +101,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="8"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/bu9"
@@ -112,7 +112,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="9"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/buMult"
@@ -123,7 +123,7 @@
                 android:onClick="buOpEvent"
                 android:text="X"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
         </TableRow>
 
         <TableRow
@@ -140,7 +140,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="4"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/bu5"
@@ -151,7 +151,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="5"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/bu6"
@@ -162,7 +162,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="6"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/buSub"
@@ -173,7 +173,7 @@
                 android:onClick="buOpEvent"
                 android:text="-"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
         </TableRow>
 
         <TableRow
@@ -190,7 +190,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="1"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/bu2"
@@ -201,7 +201,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/bu3"
@@ -212,7 +212,7 @@
                 android:background="@color/whiteback"
                 android:onClick="buNumberEvent"
                 android:text="3"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/buAdd"
@@ -223,7 +223,7 @@
                 android:onClick="buOpEvent"
                 android:text="+"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
         </TableRow>
     </TableLayout>
 
@@ -242,7 +242,7 @@
             android:background="@color/whiteback"
             android:onClick="buNumberEvent"
             android:text="0"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/buDot"
@@ -253,7 +253,7 @@
             android:background="@color/whiteback"
             android:onClick="buNumberEvent"
             android:text="."
-            android:textSize="18sp" />
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/buEqual"
@@ -264,7 +264,7 @@
             android:onClick="buEqualEvent"
             android:text="="
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
     </LinearLayout>
 
 </LinearLayout>
