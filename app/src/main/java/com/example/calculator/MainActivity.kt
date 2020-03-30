@@ -122,5 +122,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
+    fun buCleanEvent(view: View) {
+        et_showNumber.setText("0")
+        isNewOperation=true
+    }
 }
