@@ -114,4 +114,13 @@ class MainActivity : AppCompatActivity() {
         et_showNumber.setText(finalNumber.toString())
         isNewOperation=true
     }
+
+    fun buPercent(view: View) {
+
+        var number:Double = et_showNumber.text.toString().toDouble()/100
+        et_showNumber.setText(number.toString())
+
+    }
+
+
 }
